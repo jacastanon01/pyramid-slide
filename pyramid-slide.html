@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Pyramid-Slide!</title>
+</head>
+<body>
+    <h1>Pyramid Slide</h1>
+
+    <form>
+        <label for="bricks">Brick Symbol:</label>
+        <select id="bricks">
+            <option value='#'>#</option>
+            <option value = '*'>*</option>
+            <option value='@'>@</option>
+            <option value = 'X'>X</option>
+        </select>
+
+        <label for="height">How high?</label>
+        <input id="height" type="range" min="1" max="20" autofocus />
+        <span id="sliding-height"></span> <!-- display current height on slider next to slider-->
+        
+    </form>
+    <br><br>
+
+    <div id="pyramid"></div>
+
+    <script src="pyramid-slide.js"></script>
+</body>
+
+
+</html>
