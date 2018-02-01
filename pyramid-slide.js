@@ -2,7 +2,7 @@
 var howHigh = document.getElementById("height");
 var brickSymbol =document.getElementById("bricks");
 
-howHigh.addEventListener("change", function(event) {
+howHigh.addEventListener("mousemove", function(event) {
     slider();
     determineHeightAndThenDrawPyramid();
 });
@@ -23,11 +23,7 @@ function determineHeightAndThenDrawPyramid() {
     height = parseInt(heightStr);
     drawPyramid(height);
 }
-/**
- * drawPyramid
- *
- * Renders, in the HTML document, a Mario pyramid of the specified height
- */
+
 function drawPyramid(height) {
 
     // first, clear the old content
