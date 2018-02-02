@@ -1,0 +1,20 @@
+.fontt {
+    height:100px;
+    font-family: verdana;
+    display:flex;
+    background-color:rgb(235, 148, 235);
+    padding: 10px;
+    margin: auto;
+}
+
+.pyra {
+   display:flex;
+   height:10em; 
+   border-width: 100px;
+}
+
+#pyramid {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+} 
