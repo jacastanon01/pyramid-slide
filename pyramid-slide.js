@@ -2,7 +2,7 @@
 var howHigh = document.getElementById("height");
 var brickSymbol =document.getElementById("bricks");
 
-howHigh.addEventListener("change", function(event) {
+howHigh.addEventListener("mousemove", function(event) {
     slider();
     determineHeightAndThenDrawPyramid();
 });
@@ -19,7 +19,6 @@ function slider() {
 
 function determineHeightAndThenDrawPyramid() {
     heightStr = howHigh.value;
-    console.log(heightStr);
     height = parseInt(heightStr);
     drawPyramid(height);
 }
