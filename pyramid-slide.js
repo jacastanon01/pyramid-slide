@@ -22,11 +22,7 @@ function determineHeightAndThenDrawPyramid() {
     height = parseInt(heightStr);
     drawPyramid(height);
 }
-/**
- * drawPyramid
- *
- * Renders, in the HTML document, a Mario pyramid of the specified height
- */
+
 function drawPyramid(height) {
 
     // first, clear the old content
